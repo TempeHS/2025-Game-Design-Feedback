@@ -2,7 +2,7 @@
 
 ## Overall Summary
 
-This is a very impressive project, Avery. You've not only built a solid foundation for your game, "Spiders," but have also implemented a complete core gameplay loop, including combat and enemy AI. This is a significant achievement and a testament to your dedication and skill.
+You have successfully implemented a complete core gameplay loop for your game, "Spiders." The project includes a functional player controller, combat mechanics, and enemy AI, demonstrating a solid application of fundamental game development principles.
 
 ## Assessment Breakdown
 
@@ -13,7 +13,7 @@ This is a very impressive project, Avery. You've not only built a solid foundati
 
 ### 2. Extensive Development
 
-- **What Went Well**: This is where your project truly shines. You have implemented a wide range of features that come together to create a complete and playable game experience. You have a fully functional gameplay loop: the player can move, attack, and defeat enemies. The enemies can patrol, chase the player, and attack. This is a huge accomplishment.
+- **What Went Well**: You have implemented a wide range of features that create a playable game. The player can move, attack, and defeat enemies. The enemies can patrol, chase the player, and attack.
 - **Areas for Improvement**: The game is very functional, but you could enhance the player experience by adding more feedback. For example, when the player takes damage, you could make the screen flash red or play a sound effect.
 
 ### 3. README Documentation
