@@ -1,0 +1,123 @@
+<h1 align="center">Soulbound Demo Development</h1>
+
+## Table of Contents
+
+- [Showcase](#Showcase)
+- [Description](#Desciption)
+- [Development](#Development)
+- [User Documentation](#User-Documentation)
+- [Asset Showcase](#asset-showcase)
+- [Help](#help)
+- [Authors](#authors)
+- [Licence](#license)
+- [Acknowledgements](#acknowledgments)
+
+
+---
+
+## Showcase 🎥
+<video controls src="Showcase.mp4" title="Title"></video>
+
+## Description 📘
+
+This project is a demo of a 2D platformer, the focus of this demo was on the development of a movement system which included several of the conventions of a modern platformer which make that system feel polished. The game is in an unfinished state, including a movement system and basic hazards. If I had more time to work on it, I would finish importing the sprites, effects and animations to replace the placeholders, make a more fulfilling map to navigate and implement the character switch mechanic from my development proposal.
+
+If development continues, the following features are planned:
+* Character Switching: Swap between sisters with unique abilities
+* NPC (Non hostile, non player characters)
+* Narrative Dialouge: Dialogue-driven story moments between characters
+* Checkpoint System: Save progress mid-level
+* Expanded Hazard Types: Moving spikes, timed traps, and enemy AI
+
+### Story and Objective 📖
+
+While the story wasn't properly implemented, it was written originally with the "Games for Change" assessment criteria in mind, centering around two astranged sisters who reunite in the underworld and make their way back to the land of the living by making up for each others weaknesses and rekindling their broken bond. The objective of the game at present is to navigate through the environment using your jump, wall climb and dash while avoiding hazards.
+
+### Level Design Notes 🗺️
+
+The current map is effectively a placeholder, in a future iteration I would focus on giving the map a proper aesthetic and using environmental storytelling through sprites and map layout.
+
+### Movement System 🕹️
+
+The movement system follows in the footsteps of other 2D platformers, including standard conventions like variable jump, coyote jump, wall slide, wall jump and a dash. The movement speed is very fast, encouraging precice jumps or quick thinking correction if the player misjudges.
+
+The most complicated features to implement was the variable jump and coyote jump the former allows the player variable jump height based on how long the input is held while the latter allows the player to jump even after leaving the ground as long as it is within a small time of becoming airborn. An important goal in future iteration is to properly animate these actions and add new ones including possible offensive abilities.
+
+## Development 🧠
+
+This project was developed using Unity 2021.3 LTS with the 2D Game Kit. It is recommended to use the same or newer Unity version to avoid compatibility issues. Scripts are written in C#, and version control was managed via GitHub Desktop.
+
+### Script Editing Software 🔧
+
+Scripts were made with C# through Visual Studio Code with unity extensions enabled.
+
+### Debugging and Testing 🧪
+
+The movement system and mechanics were tested in Unity’s Play Mode. Debugging was performed using:
+* Unity’s built-in Console
+* Custom debug logs for movement states
+* Scene view collision visualization
+* Copilot for catching errors in syntax or other small mistakes
+
+## User Documentation 📚
+
+**Jump**
+
+The jump feature in Soulbound has variable length, increasing the height to a maximum based on how long the player holds the input. Jumps can also be performed while wall sliding.\
+![Gif of neutral jump and walljump](Assets/ReadMeGifs/Wallclimb.gif)
+
+**Coyote Jump**
+
+A "Coyote Jump" (A feature named after the cartoon Coyote of roadrunner fame which lets the player execute a jump during a small window after they walk off a platform) can also be performed shortly after the player loses collision with the ground.\
+![Gif of coyote jump](Assets/ReadMeGifs/Coyote%20Jump.gif)
+
+**Wallslide**
+
+The wallslide mechanic allows the player to hold on to or slide down (by letting go of the directional key) vertical surfaces with the "wall" tag by holding the appropriate directional key into them.
+![Gif of wall slide](Assets/ReadMeGifs/Wall%20Slide.gif)
+
+**Dash**
+
+The dash mechanic gives the player a large boost of horizontal speed following their last or current directional input.\
+![Gif of wall slide](Assets/ReadMeGifs/Dash.gif)
+
+### Control Guide 🎮
+
+| Action        | Output                              |
+| ------------- | ----------------------------------- |
+| **A**         | Move Left                           |
+| **D**         | Move Right                          |
+| **Left Shift**| Dash                                |
+| **Space**     | Jump                                |
+
+## Asset Showcase 🖼️
+
+- [View All Assets](https://drive.google.com/drive/folders/13vOsTKjDch1WHjX5Mt0HZBoEc8y2vbCv)
+
+## Help 🚨
+
+### Known issues 🚧
+* Placeholder sprites may not reflect final art direction
+* Dash occasionally overrides wall jump if inputs overlap
+* No audio implemented yet (music, SFX)
+
+Contact Luka Davies (gmail below) for inquiries.
+
+## Authors 🎨
+
+Contributors names and contact info\
+Author and designer - Luka Davies
+[@luka.davies1@education.nsw.gov.au](https://github.com/Embaii)\
+Supervisor - Mr Ben Jones
+[@benjamin.jones21@det.nsw.edu.au](https://github.com/benpaddlejones)
+
+## License ⚖️
+
+This project is licensed under the GNU Public License - see the LICENSE.md file for details.
+
+## Acknowledgments ❤️
+
+* [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [TempeHS Unity template](https://github.com/TempeHS/TempeHS_Unity_DevContainer)
+* Sprite sheet - (https://www.kenney.nl/assets/1-bit-platformer-pack)
+* Sprite illustrator - Jirawat Ophas @jirawat.ophas@education.nsw.gov.au
