@@ -2,7 +2,7 @@
 
 ## Overall Summary
 
-Your project is an ambitious and feature-rich platformer that implements an impressive range of mechanics. The project includes a complex, multi-phase boss battle, which demonstrates an understanding of AI and game structure. This is a significant accomplishment.
+Your project, "The Masked Figure," is an ambitious and feature-rich platformer that implements an impressive range of mechanics. The project includes a complex, multi-phase boss battle, which demonstrates an understanding of AI and game structure. This is a significant accomplishment.
 
 ## Assessment Breakdown
 
@@ -18,8 +18,8 @@ Your project is an ambitious and feature-rich platformer that implements an impr
 
 ### 3. README Documentation
 
-- **What Went Well**: Not applicable, as the `README.md` file was missing.
-- **Areas for Improvement**: Your project is technically complex, and a `README.md` is essential to showcase that work. Create a document that includes a description of the game, instructions on how to play, a list of implemented features (using GIFs or screenshots), and credits for any assets used.
+- **What Went Well**: Your `README.md` is of outstanding quality. It is exceptionally comprehensive, well-organized, and provides deep insight into both the game's features and your development process. The use of a playthrough video, GIFs for mechanics, and detailed developer notes on animation and AI is a professional practice. You have also meticulously credited all external assets and tutorials.
+- **Areas for Improvement**: The documentation is a model example. To improve it even further, you could ensure the "Story and Objective" section gives the game a clear title.
 
 ## Code Feedback
 
